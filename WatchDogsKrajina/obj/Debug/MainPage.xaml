@@ -19,22 +19,29 @@
             <CommandBar.PrimaryCommands>
 
                 <AppBarButton x:ConnectionId='2'
-                    x:Name="SwitchMapBtn"
+                    x:Name="SwitchMapBtnTransport"
                     x:Uid="SwitchMapBtn"
                                               
-                    Icon="Bookmarks"
-                    Label="Switch Map"
+                    Icon="Target"
+                    Label="Transport"
                     />
                 <AppBarButton x:ConnectionId='3'
+                    x:Name="SwitchMapBtnTourist"
+                    x:Uid="SwitchMapBtn"
+                                                
+                    Icon="MapPin"
+                    Label="Tourist"
+                    />
+                <AppBarButton x:ConnectionId='4'
                     x:Name="CenterMapBtn"
                     x:Uid="CenterMapBtn"
                                               
-                    Icon="Add"
+                    Icon="Map"
                     Label="Centriraj"/>
                 
             </CommandBar.PrimaryCommands>
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:ConnectionId='4'
+                <AppBarButton x:ConnectionId='5'
                     x:Name="DodatneBtn"
                     x:Uid="DodatneBtn"
                                             

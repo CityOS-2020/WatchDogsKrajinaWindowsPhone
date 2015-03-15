@@ -66,7 +66,7 @@ namespace WatchDogsKrajina
         
         private void CenterMapBtn_Click(object sender, RoutedEventArgs e)
         {
-            
+            WebViewControl.Refresh();
         }
 
         
@@ -78,6 +78,13 @@ namespace WatchDogsKrajina
 
         private void SwitchMapBtn_Click(object sender, RoutedEventArgs e)
         {
+
+            WebViewControl.Navigate(new Uri("http://watchdogskrajina.herokuapp.com/mobile/"));
+        }
+
+        private void SwitchMapBtn_Click_1(object sender, RoutedEventArgs e)
+        {
+            WebViewControl.Navigate(new Uri("http://watchdogskrajina.herokuapp.com/mobile/transport.html"));
         }
     }
 }

@@ -19,17 +19,24 @@
             <CommandBar.PrimaryCommands>
 
                 <AppBarButton
-                    x:Name="SwitchMapBtn"
+                    x:Name="SwitchMapBtnTransport"
                     x:Uid="SwitchMapBtn"
                     Click="SwitchMapBtn_Click"
-                    Icon="Bookmarks"
-                    Label="Switch Map"
+                    Icon="Target"
+                    Label="Transport"
+                    />
+                <AppBarButton
+                    x:Name="SwitchMapBtnTourist"
+                    x:Uid="SwitchMapBtn"
+                    Click="SwitchMapBtn_Click_1"
+                    Icon="MapPin"
+                    Label="Tourist"
                     />
                 <AppBarButton
                     x:Name="CenterMapBtn"
                     x:Uid="CenterMapBtn"
                     Click="CenterMapBtn_Click"
-                    Icon="Add"
+                    Icon="Map"
                     Label="Centriraj"/>
                 
             </CommandBar.PrimaryCommands>
