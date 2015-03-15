@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="WatchDogsKrajina.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WatchDogsKrajina"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <WebView x:Name="WebViewControl"
+             HorizontalAlignment="Stretch"
+             VerticalAlignment="Stretch"
+             NavigationCompleted="Browser_NavigationCompleted"
+             />
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.PrimaryCommands>
+
+                <AppBarButton
+                    x:Name="SwitchMapBtn"
+                    x:Uid="SwitchMapBtn"
+                    Click="SwitchMapBtn_Click"
+                    Icon="Bookmarks"
+                    Label="Switch Map"
+                    />
+                <AppBarButton
+                    x:Name="CenterMapBtn"
+                    x:Uid="CenterMapBtn"
+                    Click="CenterMapBtn_Click"
+                    Icon="Add"
+                    Label="Centriraj"/>
+                
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton
+                    x:Name="DodatneBtn"
+                    x:Uid="DodatneBtn"
+                    Click="DodatneBtn_Click"
+                    Label="Dodatne Opcije"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

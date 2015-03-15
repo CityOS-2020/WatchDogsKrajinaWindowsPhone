@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ADI</Machine>
+    <WindowsUser>adim</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f2a15551-94ce-465a-9565-26032f62c89a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\bin\Debug\WatchDogsKrajina.exe">
+      <PackagePath>WatchDogsKrajina.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Html\css\phone.css">
+      <PackagePath>Html\css\phone.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\Html\index.html">
+      <PackagePath>Html\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\bin\Debug\WatchDogsKrajina.xr.xml">
+      <PackagePath>WatchDogsKrajina.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\adim\documents\visual studio 2013\Projects\WatchDogsKrajina\WatchDogsKrajina\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
